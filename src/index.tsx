@@ -3,6 +3,9 @@ import ReactDOM from 'react-dom/client';
 import './index.css';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
+import './assets/fonts/Heebo/Heebo-Regular.ttf';
+import './assets/fonts/Heebo/Heebo-Bold.ttf';
+import './assets/fonts/Heebo/Heebo-Medium.ttf';
 
 const root = ReactDOM.createRoot(
   document.getElementById('root') as HTMLElement

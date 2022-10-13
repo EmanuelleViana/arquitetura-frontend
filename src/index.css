@@ -1,13 +1,30 @@
 body {
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+  font-family: "HeeboRegular", -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
+    "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+@font-face {
+  font-family: "HeeboRegular";
+  src: local("HeeboRegular"),
+    url("./assets/fonts/Heebo/Heebo-Regular.ttf") format("truetype");
+}
+@font-face {
+  font-family: "HeeboBold";
+  src: local("HeeboBold"),
+    url("./assets/fonts/Heebo/Heebo-Bold.ttf") format("truetype");
+    font-weight: bold;
+}
+@font-face {
+  font-family: "HeeboMedium";
+  src: local("HeeboMedium"),
+    url("./assets/fonts/Heebo/Heebo-Medium.ttf") format("truetype");
+}
+@font-face {
+  font-family: "HeeboBlack";
+  src: local("HeeboBlack"),
+    url("./assets/fonts/Heebo/Heebo-Black.ttf") format("truetype");
 }

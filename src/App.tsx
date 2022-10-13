@@ -1,24 +1,29 @@
-import React from 'react';
-import logo from './logo.svg';
-import './App.css';
+import React from "react";
+import logo from "./logo.svg";
+
+import "./App.scss";
+import Header from "./components/Header";
+import Routes from "./routes";
+import CustomRoutes from "./routes";
+import { Box, Grid } from "@mui/material";
+import Footer from "./components/Footer";
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.tsx</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
+      <Header />
+      <Box sx={{ flexGrow: 1 }}>
+        <Grid
+          className="app-content"
+          display="flex"
+          justifyContent="center"
+          container
         >
-          Learn React
-        </a>
-      </header>
+          <CustomRoutes />
+        </Grid>
+      </Box>
+
+      <Footer/>
     </div>
   );
 }

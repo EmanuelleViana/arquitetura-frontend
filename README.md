@@ -1,3 +1,32 @@
+
+# Apresentação
+Este repositório faz parte de um trabalho para a disciplina de Arquitetura de Frontend, do curso de Pós Graduação
+em Engenharia de Software.
+
+------------------------------------
+ ## 🌼  Tecnologias utilizadas ##
+* React
+* Material UI
+* Typescript
+* OOCSS
+
+
+## Requisitos
+Desenvolva uma aplicação, fazendo as seguintes escolhas:
+
+a) Escolha algum framework de componentes de sua preferência (React, Vue ou Angular);
+
+b) Após o desenvolvimento da tela a seguir, aponte quais as dificuldades encontradas no desenvolvimento com base nas escolhas que você fez.
+## Resultados ##
+### a) Web ###
+
+![previews/web/web-1](previews/Home.png)
+![previews/web/web-1](previews/Home_2.png)
+![previews/web/web-1](previews/Sobre.png)
+
+### b) Dificuldades encontradas ###
+
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
