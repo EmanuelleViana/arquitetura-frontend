@@ -25,7 +25,7 @@ b) Após o desenvolvimento da tela a seguir, aponte quais as dificuldades encont
 ![previews/web/web-1](previews/Sobre.png)
 
 ### b) Dificuldades encontradas ###
-
+Em breve...
 
 # Getting Started with Create React App
 
