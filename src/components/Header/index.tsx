@@ -1,23 +1,33 @@
 import { Box } from "@mui/material";
-import Grid from "@mui/material/Grid"; 
-import React, { Component } from 'react';
+import Grid from "@mui/material/Grid";
+import React from "react";
 
 import "./style.scss";
 
 function Header() {
   const routeChange = (route: string) => {
-    window.location.href=route;
+    window.location.href = route;
+  };
+
+  const active = (route: string) => {
+    console.log(window.location.pathname, route);
+    return window.location.pathname.includes(route);
   };
   return (
     <header className="header">
       <nav className="menu pd-24">
         <Box sx={{ flexGrow: 1 }}>
           <Grid display="flex" justifyContent="center" container spacing={2}>
-            <Grid item className="title text-md text-pink pointer">
+            <Grid item className="title text-md pointer">
               <span onClick={() => routeChange("/")}> Blog</span>
             </Grid>
-            <Grid item className="title text-md pointer">
-            <span onClick={() => routeChange("sobre")}> Sobre</span>
+            <Grid
+              item
+              // className="title text-md pointer"
+              className={`title text-md pointer ${() =>
+                active("sobre") ? "text-pink" : ""}`}
+            >
+              <span onClick={() => routeChange("sobre")}> Sobre</span>
             </Grid>
             <Grid item className="title text-md pointer">
               Contato
