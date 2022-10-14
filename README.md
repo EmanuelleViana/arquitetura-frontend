@@ -20,9 +20,9 @@ b) Após o desenvolvimento da tela, aponte quais as dificuldades encontradas no 
 ## Resultados ##
 ### a) Web ###
 
-![previews/web/web-1](previews/Home.png) 
-![previews/web/web-1](previews/Home_2.png)
-![previews/web/web-1](previews/Sobre.png)
+![previews/web/web-1](previews/HomeV2.png) 
+![previews/web/web-1](previews/Home_2V2.png)
+![previews/web/web-1](previews/SobreV2.png)
 
 ### b) Dificuldades encontradas ###
 As principais dificuldades encontradas foram:
