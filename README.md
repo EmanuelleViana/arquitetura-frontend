@@ -20,6 +20,10 @@ b) Após o desenvolvimento da tela, aponte quais as dificuldades encontradas no 
 ## Resultados ##
 ### a) Web ###
 
+![previews/web/web-1](previews/Home.png) 
+![previews/web/web-1](previews/Home_2.png)
+![previews/web/web-1](previews/Sobre.png)
+
 ### b) Dificuldades encontradas ###
 As principais dificuldades encontradas foram:
 - Falta de estrutura definida: Como vindo de um contexto com Angular, a falta de uma estrutura definida de pastas, código etc foi um obstáculo;
