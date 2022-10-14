@@ -20,12 +20,21 @@ b) Após o desenvolvimento da tela a seguir, aponte quais as dificuldades encont
 ## Resultados ##
 ### a) Web ###
 
-![previews/web/web-1](previews/Home.png)
+![previews/web/web-1](previews/Home.png) 
 ![previews/web/web-1](previews/Home_2.png)
 ![previews/web/web-1](previews/Sobre.png)
 
 ### b) Dificuldades encontradas ###
-Em breve...
+As principais dificuldades encontradas foram:
+- Falta de estrutura definida: Como vindo de um contexto com Angular, a falta de uma estrutura definida de pastas, código etc foi um obstáculo;
+- Forma de escrever código: Escrever HTML junto com Javascript foi uma forma diferente do habitual;
+- Estados: Ainda não consegui entender o Redux;
+- Rotas: Trabalhar com as rotas foi mais difícil. Vez outra era gerado algum erro de contexto ao usar as funções. A navegação pelo menu ainda não funcionou com a lib de rotas, até então está sendo feita com o window.location, necessitando refresh desnecessário da página;
+- Necessidade de instalar pacotes para tudo: No Angular o projeto já é criado com praticamente tudo o que se precisa, no React tive que instalar pacotes até para trabalhar com rotas;
+- Padrão de CSS: Escrever CSS com um padrão é vantajoso, mas achei difícil 
+adquirir o costume de escrever tudo no padrão;
+- Responsividade: É sempre custoso tratar responsividade. O Material auxiliou em alguns pontos mas ainda não foi possível deixar responsivo.
+
 
 # Getting Started with Create React App
 
